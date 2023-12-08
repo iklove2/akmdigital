@@ -23,3 +23,47 @@ a:visited {
 li {
     list-style-type: none;
 }
+
+.top {
+    margin-bottom: 140px;
+    min-width: 320px;
+}
+
+.top_header {
+    min-height: 92px;
+    background-color: #043873;
+}
+
+.top_header_btn {
+    max-width: 1480px;
+    padding-left: calc(50% - 740px);
+    padding-right: calc(50% - 740px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_header_btn_wrap {
+    padding-top: 16px;
+    display: flex;
+}
+
+.top_header_logo {
+    margin-top: 13px;
+    width: 192px;
+    height: 34px;
+    display: flex;
+}
+
+.top_header_logo_img {
+    margin-top: 2px;
+    width: 37px;
+    height: 29px;
+}
+
+.top_header_logo_text {
+    width:144px;
+    text-align: right;
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: bold;
+}
