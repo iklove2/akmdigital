@@ -88,8 +88,7 @@ li {
 
 .top_header_navigator_menu_item {
     min-height: 24px;
-    margin-right: 10px;
-    tes
+    margin-right: 10px 
 }
 
 .top_header_navigator_menu_item::after {
@@ -125,4 +124,13 @@ li {
     margin-top: 140px;
     margin-bottom: 140px;
     background-color: #C4DEFD;
+}
+
+.top_main_menu_gappa {
+    color: #043873;
+}
+
+
+.top_main_menu_gappa2 {
+    color: #043873;
 }
