@@ -53,7 +53,6 @@ li {
 }
 
 .top_header_logo_img {
-    margin-top: 2px;
     width: 37px;
     height: 29px;
 }
@@ -61,9 +60,11 @@ li {
 .top_header_logo_text {
     width:144px;
     text-align: right;
-    font-size: 28px;
+    font-size: 8pt;
     color: #ffffff;
     font-weight: bold;
+    display: flex;
+    align-items: center;
 }
 
 .top_header_navigator {
@@ -81,7 +82,7 @@ li {
     font-size: 18px;
     color: #ffffff;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .top_header_navigator_menu_item {
@@ -95,32 +96,41 @@ li {
 }
 
 .main_top {
-    min-width:1480px;
     min-height: 830px;
-    padding-left: calc(50% - 740px);
-    padding-right: calc(40% - 740px);
-    display: flex;
-
-    justify-content: space-evenly;
     background-color: #043873;
+}
+
+.main_top_content {
+    max-width: 1480px;
+    padding-left: calc(50% - 740px);
+    padding-right: calc(50% - 740px);
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    justify-content: center;
 }
 
 .main_top_left {
     width:45%;
-    padding-left:220px;
+    /* padding-left:220px; */
     color: #ffffff;
     font-weight: bolder;
     font-size:32px;
+    letter-spacing: -2%;
     padding-top: 234px;
     padding-bottom: 234px;
-    text-wrap: wrap;
+
 }
 
 .main_top_right {
-    min-height: 550px;
     width:55%;
     margin-top: 140px;
     margin-bottom: 140px;
+}
+
+.main_top_right_content {
+    min-height: 550px;
+    max-width: 825px;
     background-color: #C4DEFD;
 }
 
