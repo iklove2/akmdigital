@@ -32,8 +32,6 @@ li {
 .top_header {
     min-height: 92px;
     background-color: #043873;
-    display: flex;
-    align-items: center;
 }
 
 .top_header_btn {
@@ -99,8 +97,8 @@ li {
 .main_top {
     min-width:1480px;
     min-height: 830px;
-    padding-left: calc(55% - 655px);
-    padding-right: calc(45% - 825px);
+    padding-left: calc(50% - 740px);
+    padding-right: calc(40% - 740px);
     display: flex;
 
     justify-content: space-evenly;
@@ -108,7 +106,7 @@ li {
 }
 
 .main_top_left {
-    min-width:288px;
+    width:45%;
     padding-left:220px;
     color: #ffffff;
     font-weight: bolder;
@@ -120,7 +118,7 @@ li {
 
 .main_top_right {
     min-height: 550px;
-    min-width:825px;
+    width:55%;
     margin-top: 140px;
     margin-bottom: 140px;
     background-color: #C4DEFD;
