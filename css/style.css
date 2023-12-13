@@ -47,7 +47,7 @@ li {
 }
 
 .top_header_logo {
-    width: 192px;
+    max-width: 192px;
     height: 34px;
     display: flex;
 }
@@ -58,9 +58,10 @@ li {
 }
 
 .top_header_logo_text {
-    width:144px;
+    /* max-width:144px; */
     text-align: right;
-    font-size: 8pt;
+    font-size: calc( (100vw - 740px)/(1920 - 740) * (16 - 8) + 8pt);
+    /* font-size: 8pt; */
     color: #ffffff;
     font-weight: bold;
     display: flex;
