@@ -141,7 +141,99 @@ gap:24px
 .main_top {
     min-height: 830px;
     background-color: #043873;
+    /* margin-bottom: 140px; */
+}
 
+.main_top_fonpictop {
+    position: absolute;
+    content: "";
+    background-image: url("../pic/fonpictop.svg"); 
+    background-repeat: no-repeat;
+    min-width: 1920px;
+    min-height: 520px;
+    /* left: -366px; */
+    top: 192px;
+    overflow-x: hidden;
+    
+
+}
+
+.main_top_content {
+    max-width: 1480px;
+    padding-left: calc(50% - 740px);
+    padding-right: calc(50% - 740px);
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    justify-content: center;
+}
+
+.main_top_left {
+    width:45%;
+    /* padding-left:220px; */
+    color: #ffffff;
+    padding-top: 234px;
+    padding-bottom: 234px;
+    padding-right: 38px;
+}
+
+.main_top_left h2 {
+    font-weight: bolder;
+    font-size: calc( (100vw - 740px)/(1920 - 740) * (32 - 16) + 32pt);
+    letter-spacing: -2%;
+    margin-bottom: 24px;
+}
+
+.main_top_left p {
+    font-weight: normal;
+    font-size: calc( (100vw - 740px)/(1920 - 740) * (16 - 8) + 8pt);
+    letter-spacing: -2%;
+    margin-bottom: 60px;
+}
+
+.main_top_left button {
+    min-width: 220px;
+    min-height: 60px;
+    border-radius: 8px;
+    background-color: #4F9CF9;
+    border-style: none;
+    color: #ffffff;
+    font-size: 16px;
+    /* font-size: calc( (100vw - 740px)/(1920 - 740) * (24 - 12) + 12pt); */
+    padding: 20px 40px 20px 20px;
+}
+
+.main_top_left button::after {
+    /* display: block;  */
+    content: url(../pic/rightarrow.svg);
+    margin-left: 10px;
+    margin-top: 7px;
+    width: 10px;
+    height: 10px;    
+}
+
+.main_top_right {
+    position: relative;
+    width:55%;
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+
+.main_top_right_content {
+    min-height: 550px;
+    max-width: 825px;
+    /* background-color: #C4DEFD; */
+}
+
+.main_top_right_content img{
+    object-fit: fill;
+}
+
+
+.main_content_project_work {
+    min-height: 1588px;
+    background-color: #043873;
+    /* margin-bottom: 140px; */
 }
 
 .main_top_fonpictop {
