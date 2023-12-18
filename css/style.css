@@ -98,12 +98,12 @@ li {
     margin-right: 10px; 
 }
 
-.top_header_btn > nav ul > a li{
+.top_header_btn > nav ul > li a{
     min-width: 117px;
     text-transform: capitalize;
 }
 
-.top_header_btn > nav ul > a li::after {
+.top_header_btn > nav ul > li a::after {
     display: inline;
     content: url(../pic/DownArrow.svg);
     margin-left: 10px;
