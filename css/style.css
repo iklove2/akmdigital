@@ -78,19 +78,20 @@ li {
 
 .top_header_btn > nav {
     max-width: 988px;
-    /* min-height: 60px; */
+    min-height: 24px;
     display: flex;
     justify-content: flex-end;
-}
-
-.top_header_btn > nav ul {
-    min-height: 24px;
     gap: 32px;
     font-family: sans-serif;
     font-size: 18px;
     color: #ffffff;
+
+}
+
+.top_header_btn > nav ul {
     display: flex;
     align-items: center;
+    gap: 32px;
 }
 
 .top_header_btn > nav ul li {
@@ -121,7 +122,7 @@ li {
     border-style: none;
     color: #043873;
     font-size: 18px;
-    padding: 18px 40px 18px 40px;
+    margin: 18px 0px 18px 0px;
 }
 
 .top_header_navigator_menu_btn_try {
@@ -132,7 +133,7 @@ li {
     border-style: none;
     color: #ffffff;
     font-size: 16px;
-    padding: 20px 40px 20px 20px;
+    margin: 20px 0px 20px 0px;
 }
 
 .top_header_navigator_menu_btn_try::after {
