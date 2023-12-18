@@ -68,7 +68,7 @@ li {
 .top_header_logo_text {
     min-width:144px;
     text-align: right;
-    font-size: calc( ((100vw - 740px)/(1920 - 740) * 24 - 12) + 10pt);
+    font-size: calc( ((100vw - 740px)/(1920 - 740) * 24 - 12) + 10);
     color: #ffffff;
     font-weight: bold;
     display: flex;
@@ -132,7 +132,7 @@ li {
     border-style: none;
     color: #ffffff;
     font-size: 16px;
-    padding: 20px 40px 20px 20p
+    padding: 20px 40px 20px 20px;
 }
 
 .top_header_navigator_menu_btn_try::after {
@@ -171,14 +171,12 @@ li {
 .main_top_left h2 {
     font-weight: bolder;
     font-size: calc( (100vw - 740px)/(1920 - 740) * (32 - 16) + 32pt);
-    letter-spacing: -2%;
     margin-bottom: 24px;
 }
 
 .main_top_left p {
     font-weight: normal;
     font-size: calc( (100vw - 740px)/(1920 - 740) * (16 - 8) + 8pt);
-    letter-spacing: -2%;
     margin-bottom: 60px;
 }
 
@@ -246,7 +244,6 @@ li {
 .main_project_work_left h2 {
     font-weight: bolder;
     font-size: calc( (100vw - 740px)/(1920 - 740) * (32 - 16) + 32pt);
-    letter-spacing: -2%;
     margin-bottom: 24px;
 }
 
@@ -259,7 +256,6 @@ li {
 .main_project_work_left p {
     font-weight: normal;
     font-size: calc( (100vw - 740px)/(1920 - 740) * (16 - 8) + 8pt);
-    letter-spacing: -2%;
     margin-bottom: 60px;
 }
 
@@ -327,7 +323,6 @@ li {
 .main_bottom_project_work_left h2 {
     font-weight: bolder;
     font-size: calc( (100vw - 740px)/(1920 - 740) * (32 - 16) + 32pt);
-    letter-spacing: -2%;
     margin-bottom: 24px;
 }
 
@@ -340,7 +335,6 @@ li {
 .main_bottom_project_work_left p {
     font-weight: normal;
     font-size: calc( (100vw - 740px)/(1920 - 740) * (16 - 8) + 8pt);
-    letter-spacing: -2%;
     margin-bottom: 60px;
 }
 
@@ -404,14 +398,12 @@ li {
 .main_extension_left h2 {
     font-weight: bolder;
     font-size: calc( (100vw - 740px)/(1920 - 740) * (32 - 16) + 32pt);
-    letter-spacing: -2%;
     margin-bottom: 24px;
 }
 
 .main_extension_left p {
     font-weight: normal;
     font-size: calc( (100vw - 740px)/(1920 - 740) * (16 - 8) + 8pt);
-    letter-spacing: -2%;
     margin-bottom: 60px;
 }
 
@@ -491,7 +483,6 @@ li {
 .main_customise_right h2 {
     font-weight: bolder;
     font-size: calc( (100vw - 740px)/(1920 - 740) * (32 - 16) + 32pt);
-    letter-spacing: -2%;
     margin-bottom: 24px;
 }
 
@@ -504,7 +495,6 @@ li {
 .main_customise_right p {
     font-weight: normal;
     font-size: calc( (100vw - 740px)/(1920 - 740) * (16 - 8) + 8pt);
-    letter-spacing: -2%;
     margin-bottom: 60px;
 }
 
@@ -546,7 +536,6 @@ li {
 .main_your_work_content h2 {
     font-weight: bolder;
     font-size: calc( (100vw - 740px)/(1920 - 740) * (32 - 16) + 32pt);
-    letter-spacing: -2%;
 }
 
 .main_your_work_content h2::after {
@@ -559,7 +548,6 @@ li {
     font-weight: normal;
     max-width: 1064px;
     font-size: calc( (100vw - 740px)/(1920 - 740) * (16 - 8) + 8pt);
-    letter-spacing: -2%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 60px;
@@ -608,7 +596,6 @@ li {
 .main_your_data_left h2 {
     font-weight: bolder;
     font-size: calc( (100vw - 740px)/(1920 - 740) * (32 - 16) + 32pt);
-    letter-spacing: -2%;
     margin-bottom: 24px;
 }
 
@@ -621,7 +608,6 @@ li {
 .main_your_data_left p {
     font-weight: normal;
     font-size: calc( (100vw - 740px)/(1920 - 740) * (16 - 8) + 8pt);
-    letter-spacing: -2%;
     margin-bottom: 60px;
 }
 
@@ -678,7 +664,6 @@ li {
 .main_our_sponsors_content_text h2 {
     font-weight: bolder;
     font-size: calc( (100vw - 740px)/(1920 - 740) * (32 - 16) + 32pt);
-    letter-spacing: -2%;
     text-align: center;
 }
 
@@ -742,14 +727,12 @@ li {
 .main_with_your_right h2 {
     font-weight: bolder;
     font-size: calc( (100vw - 740px)/(1920 - 740) * (32 - 16) + 18pt);
-    letter-spacing: -2%;
     margin-bottom: 24px;
 }
 
 .main_with_your_right p {
     font-weight: normal;
     font-size: calc( (100vw - 740px)/(1920 - 740) * (16 - 8) + 8pt);
-    letter-spacing: -2%;
     margin-bottom: 60px;
 }
 
@@ -790,14 +773,12 @@ li {
 .main_try_whiteplace_content h2 {
     font-weight: bolder;
     font-size: calc( (100vw - 740px)/(1920 - 740) * (32 - 16) + 48pt);
-    letter-spacing: -2%;
 }
 
 .main_try_whiteplace_content p {
     font-weight: normal;
     max-width: 1064px;
     font-size: calc( (100vw - 740px)/(1920 - 740) * (24 - 12) + 18pt);
-    letter-spacing: -2%;
     margin-left: auto;
     margin-right: auto;
 }
