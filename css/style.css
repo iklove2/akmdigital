@@ -68,7 +68,7 @@ li {
 .top_header_logo_text {
     min-width:144px;
     text-align: right;
-    font-size: calc( ((100vw - 740px)/(1920 - 740) * 24 - 12) + 10);
+    font-size: calc((100vw - 740px)/(1920 - 740) * (24 - 12) + 8pt);
     color: #ffffff;
     font-weight: bold;
     display: flex;
