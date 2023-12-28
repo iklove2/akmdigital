@@ -71,7 +71,7 @@ li {
     text-transform: Uppercase;
 }
 
-nav {
+.top_header_menu {
     max-width: 988px;
     min-height: 24px;
     display: flex;
@@ -83,23 +83,23 @@ nav {
 
 }
 
-nav ul {
+.top_header_menu ul {
     display: flex;
     align-items: center;
     gap: 32px;
 }
 
-nav ul li {
+.top_header_menu ul li {
     min-height: 24px;
     margin-right: 10px;
 }
 
-nav ul>li a {
+.top_header_menu ul>li a {
     min-width: 117px;
     text-transform: capitalize;
 }
 
-nav ul>li a::after {
+.top_header_menu ul>li a::after {
     display: inline;
     content: url(../pic/DownArrow.svg);
     margin-left: 10px;
@@ -150,22 +150,100 @@ nav ul>li a::after {
     height: 24px;
     margin: 20px 0px 20px 0px;
     padding: 18px 18px;
+    overflow-y: hidden;
 }
 
-.top_header_nav_menu_burger>span {
+.top_header_nav_menu_burger input {
     display: block;
-    width: 42px;
-    height: 3px;
+    width: 44px;
+    height: 28px;
+    position: absolute; 
+    top: 36px;
+    right: 20px;
+    cursor: pointer;
+    opacity: 0; 
+    z-index: 2; 
+  }
+
+.top_header_nav_menu_burger > span {
+    display: block;
+    width: 33px;
+    height: 4px;
     margin-bottom: 5px;
     position: relative;
     background: #cdcdcd;
-    border-radius: 0px;
+    border-radius: 3px;
     z-index: 1;
     transform-origin: 4px 0px;
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
-        background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
-        opacity 0.55s ease;
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                opacity 0.55s ease;
 }
+
+.nav_menu_lists {
+    display: none; 
+    opacity: 1;
+    top: 57px;
+    right: 32px;
+    z-index: 10;
+    /* position: absolute;   */
+    min-height: 634px;
+    min-width: 232px;
+    padding: 32px 32px;
+    padding-left: 32px;
+    background-color: #FFFFFF;
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+    opacity 0.55s ease;    
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.top_header_nav_menu_burger input:checked ~ .nav_menu_lists {
+    display: block; 
+}
+
+.nav_menu_lists:hover {
+    display: block;
+}
+
+.nav_menu_list_item_title {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 24px;
+}
+
+/* .nav_menu_list_title {} */
+
+.nav_menu_list_item {
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.a_nav_menu_list_item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    margin-bottom: 12px;
+}
+
+.a_nav_menu_sublist_item {
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+}
+
+
+.nav_menu_sublist_item {
+    margin-top: 12px;
+    margin-bottom: 11px;
+    margin-left: 11px;
+}
+
 
 
 /* main top */
@@ -942,7 +1020,7 @@ footer p[data-year="year"]::before {
     .top_header_logo_text {
         min-width: 144px;
         text-align: right;
-        font-size: calc((100vw - 740px)/(1152 - 576) * (32 - 24) + 14pt);
+        font-size: 12pt;
         color: #ffffff;
         font-weight: bold;
         display: flex;
@@ -954,7 +1032,7 @@ footer p[data-year="year"]::before {
         display: block;
     }
 
-    nav {
+    .top_header_menu {
         display: none;
     }
 
@@ -963,9 +1041,7 @@ footer p[data-year="year"]::before {
     }
 
     .top_header_btn {
-        max-width: 768px;
-        padding-left: calc(50% - 394px);
-        padding-right: calc(50% - 394px);
+
     }
 
     /* main top style*/
